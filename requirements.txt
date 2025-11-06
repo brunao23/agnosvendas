@@ -1,0 +1,11 @@
+agno>=0.5.0
+openai>=1.51.0
+newspaper4k>=1.0.0
+ddgs>=9.7.0
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+lxml_html_clean>=1.0.0
+lancedb>=0.14.0
+tzlocal>=5.0
+requests>=2.31.0
+ag-ui-protocol>=0.1.0

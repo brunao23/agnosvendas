@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.sqlite
+venv/
+.venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Node
+node_modules/
+dist/
+build/
+.next/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables and credentials
+.env
+.env.*
+google_credentials.json
+token.json
+secret*.json
+
+# Temporary and local data
+tmp/
+tmp/**
+*.log
+logs/
+
+# Lancedb or vector DB files
+tmp/lancedb_synapse/
+
+# Ignore python virtual envs
+venv/
+ENV/
+.Python
+
+# other
+*.egg-info/
+*.egg
+# Credenciais e informações sensíveis
+google_credentials.json
+token.json
+*.env
+.env
+
+# Banco de dados
+tmp/
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Agno/LanceDB
+lancedb_synapse/
+
+
