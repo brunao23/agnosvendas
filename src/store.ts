@@ -81,7 +81,9 @@ export const useStore = create<Store>()(
             typeof messages === 'function' ? messages(state.messages) : messages
         })),
       chatInputRef: { current: null },
-      selectedEndpoint: 'http://localhost:7777',
+  // Allow overriding the default endpoint via an environment variable
+  // Set NEXT_PUBLIC_AGENTOS_URL in Vercel to point to your agents' public URL
+  selectedEndpoint: process.env.NEXT_PUBLIC_AGENTOS_URL || 'http://localhost:7777',
       setSelectedEndpoint: (selectedEndpoint) =>
         set(() => ({ selectedEndpoint })),
       authToken: '',
