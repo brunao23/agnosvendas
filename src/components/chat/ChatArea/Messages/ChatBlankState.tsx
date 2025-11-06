@@ -118,7 +118,7 @@ const ChatBlankState = () => {
         >
           <div className="flex items-center justify-center gap-x-2 whitespace-nowrap font-medium">
             <span className="flex items-center font-[600]">
-              This is an open-source
+              Synapse Sales Agent — Premium Sales Assistant
             </span>
             <span className="inline-flex translate-y-[10px] scale-125 items-center transition-transform duration-200 hover:rotate-6">
               <Link
@@ -172,7 +172,7 @@ const ChatBlankState = () => {
               </div>
             </span>
           </div>
-          <p>For the full experience, visit the AgentOS</p>
+          <p>Connect to your AgentOS instance for the full Synapse Sales experience</p>
         </motion.h1>
         <motion.div
           initial={{ opacity: 0, y: 10 }}
@@ -183,9 +183,9 @@ const ChatBlankState = () => {
           <ActionButton
             href={EXTERNAL_LINKS.documentation}
             variant="primary"
-            text="GO TO DOCS"
+            text="DOCUMENTATION"
           />
-          <ActionButton href={EXTERNAL_LINKS.agenOS} text="VISIT AGENTOS" />
+          <ActionButton href={EXTERNAL_LINKS.agenOS} text="OPEN AGENTOS" />
         </motion.div>
       </div>
     </section>

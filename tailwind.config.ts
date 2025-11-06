@@ -11,17 +11,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#FAFAFA',
-        primaryAccent: '#18181B',
-        brand: '#FF4017',
+        // Premium black & gold theme for Synapse Sales Agent
+        primary: '#D4AF37', // gold
+        primaryAccent: '#000000',
+        brand: '#D4AF37',
         background: {
-          DEFAULT: '#111113',
-          secondary: '#27272A'
+          DEFAULT: '#050505', // near black
+          secondary: '#0b0b0b'
         },
-        secondary: '#f5f5f5',
-        border: 'rgba(var(--color-border-default))',
-        accent: '#27272A',
-        muted: '#A1A1AA',
+        secondary: '#1f1f1f',
+        border: 'rgba(212,175,55,0.12)',
+        accent: '#0b0b0b',
+        muted: '#BFB8A5',
         destructive: '#E53935',
         positive: '#22C55E'
       },

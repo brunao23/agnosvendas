@@ -16,9 +16,9 @@ const dmMono = DM_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Agent UI',
+  title: 'Synapse Sales Agent',
   description:
-    'A modern chat interface for AI agents built with Next.js, Tailwind CSS, and TypeScript. This template provides a ready-to-use UI for interacting with Agno agents.'
+    'Synapse Sales Agent — Premium sales assistant UI. Black & gold theme optimized for sales workflows. Connects to AgentOS for agent orchestration.'
 }
 
 export default function RootLayout({

@@ -1,6 +1,6 @@
-# Agent UI
+# Synapse Sales Agent
 
-A modern chat interface for AgentOS built with Next.js, Tailwind CSS, and TypeScript. This template provides a ready-to-use UI for connecting to and interacting with your AgentOS instances through the Agno platform.
+Synapse Sales Agent is a premium sales assistant UI for AgentOS, styled in a black & gold theme. Built with Next.js, Tailwind CSS, and TypeScript, it provides a polished interface for interacting with sales-focused agents and workflows.
 
 <img src="https://agno-public.s3.us-east-1.amazonaws.com/assets/agent_ui_banner.svg" alt="agent-ui" style="border-radius: 10px; width: 100%; max-width: 800px;" />
 
